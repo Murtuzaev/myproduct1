@@ -20,8 +20,8 @@ const Product = () => {
                     <div className="col-lg-3" key={product.id}>
                     <Link to = {`/detail/${product.id}`}>
                     <div className="product-list">
-                      <img className='img-fluid' style={{height:'250px'}} src={product.image} alt="" />
-                      <h1>{product.title}</h1>
+                      <img className='img-fluid' style={{height:'200px'}} src={product.image} alt="" />
+                      <h1 style={{fontSize: '20px'}}>{product.title}</h1>
                       <p>{product.price}</p>
                      </div>
                     </Link>
